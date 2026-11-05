@@ -1,0 +1,16 @@
+$ python3 -m src.main --profile pop --diversity 2
+Loaded songs: 20 | mode: genre-first
+
+Profile: pop {'genre': 'pop', 'mood': 'happy', 'energy': 0.8}
+#   Title                     Artist              Score
+----------------------------------------------------------
+1   Weekend Skyline           Neon Echo           3.99
+    Because: genre match (+2.00); mood match (+1.00); energy gap 0.01 (+0.99)
+2   Gym Hero                  Max Pulse           2.87
+    Because: genre match (+2.00); energy gap 0.13 (+0.87)
+3   Sunrise City              Neon Echo           1.98
+    Because: genre match (+2.00); mood match (+1.00); energy gap 0.02 (+0.98); repeated artist (-2.00)
+4   Rooftop Lights            Indigo Parade       1.96
+    Because: mood match (+1.00); energy gap 0.04 (+0.96)
+5   Desert Festival           Sol Dorado          1.94
+    Because: mood match (+1.00); energy gap 0.06 (+0.94)
