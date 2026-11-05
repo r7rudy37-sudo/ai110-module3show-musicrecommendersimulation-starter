@@ -1,0 +1,8 @@
+flowchart LR
+  Catalog[20 synthetic CSV records] --> Loader[Validate and convert types]
+  Preferences[Explicit preferences] --> Scorer[Weighted scorer and reasons]
+  Loader --> Scorer
+  Mode[Ranking strategy] --> Scorer
+  Scorer --> Rank[Sort or greedy artist penalty]
+  Rank --> Output[Top K table]
+  Tests[24 behavior tests] -. verify .-> Scorer
