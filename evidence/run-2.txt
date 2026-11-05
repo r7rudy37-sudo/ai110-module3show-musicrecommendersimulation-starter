@@ -1,0 +1,16 @@
+$ python3 -m src.main --profile conflicting --mode genre-first
+Loaded songs: 20 | mode: genre-first
+
+Profile: conflicting {'genre': 'ambient', 'mood': 'sad', 'energy': 0.95}
+#   Title                     Artist              Score
+----------------------------------------------------------
+1   Spacewalk Thoughts        Orbit Bloom         2.33
+    Because: genre match (+2.00); energy gap 0.67 (+0.33)
+2   Blue Window               Velvet Current      1.43
+    Because: mood match (+1.00); energy gap 0.57 (+0.43)
+3   Electric Horizon          Pulse Atlas         0.99
+    Because: energy gap 0.01 (+0.99)
+4   Gym Hero                  Max Pulse           0.98
+    Because: energy gap 0.02 (+0.98)
+5   Storm Runner              Voltline            0.96
+    Because: energy gap 0.04 (+0.96)
