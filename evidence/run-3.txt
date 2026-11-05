@@ -1,0 +1,16 @@
+$ python3 -m src.main --profile conflicting --mode energy-first
+Loaded songs: 20 | mode: energy-first
+
+Profile: conflicting {'genre': 'ambient', 'mood': 'sad', 'energy': 0.95}
+#   Title                     Artist              Score
+----------------------------------------------------------
+1   Electric Horizon          Pulse Atlas         1.98
+    Because: energy gap 0.01 (+1.98)
+2   Gym Hero                  Max Pulse           1.96
+    Because: energy gap 0.02 (+1.96)
+3   Storm Runner              Voltline            1.92
+    Because: energy gap 0.04 (+1.92)
+4   Blue Window               Velvet Current      1.86
+    Because: mood match (+1.00); energy gap 0.57 (+0.86)
+5   After the Storm           Voltline            1.86
+    Because: energy gap 0.07 (+1.86)
