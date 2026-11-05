@@ -1,0 +1,44 @@
+$ python3 -m src.main --profile all
+Loaded songs: 20 | mode: genre-first
+
+Profile: pop {'genre': 'pop', 'mood': 'happy', 'energy': 0.8}
+#   Title                     Artist              Score
+----------------------------------------------------------
+1   Weekend Skyline           Neon Echo           3.99
+    Because: genre match (+2.00); mood match (+1.00); energy gap 0.01 (+0.99)
+2   Sunrise City              Neon Echo           3.98
+    Because: genre match (+2.00); mood match (+1.00); energy gap 0.02 (+0.98)
+3   Gym Hero                  Max Pulse           2.87
+    Because: genre match (+2.00); energy gap 0.13 (+0.87)
+4   Rooftop Lights            Indigo Parade       1.96
+    Because: mood match (+1.00); energy gap 0.04 (+0.96)
+5   Desert Festival           Sol Dorado          1.94
+    Because: mood match (+1.00); energy gap 0.06 (+0.94)
+
+Profile: lofi {'genre': 'lofi', 'mood': 'chill', 'energy': 0.35}
+#   Title                     Artist              Score
+----------------------------------------------------------
+1   Library Rain              Paper Lanterns      4.00
+    Because: genre match (+2.00); mood match (+1.00); energy gap 0.00 (+1.00)
+2   Soft Desk Lamp            LoRoom              3.98
+    Because: genre match (+2.00); mood match (+1.00); energy gap 0.02 (+0.98)
+3   Midnight Coding           LoRoom              3.93
+    Because: genre match (+2.00); mood match (+1.00); energy gap 0.07 (+0.93)
+4   Focus Flow                LoRoom              2.95
+    Because: genre match (+2.00); energy gap 0.05 (+0.95)
+5   Spacewalk Thoughts        Orbit Bloom         1.93
+    Because: mood match (+1.00); energy gap 0.07 (+0.93)
+
+Profile: rock {'genre': 'rock', 'mood': 'intense', 'energy': 0.9}
+#   Title                     Artist              Score
+----------------------------------------------------------
+1   Storm Runner              Voltline            3.99
+    Because: genre match (+2.00); mood match (+1.00); energy gap 0.01 (+0.99)
+2   After the Storm           Voltline            3.98
+    Because: genre match (+2.00); mood match (+1.00); energy gap 0.02 (+0.98)
+3   Gym Hero                  Max Pulse           1.97
+    Because: mood match (+1.00); energy gap 0.03 (+0.97)
+4   Electric Horizon          Pulse Atlas         1.94
+    Because: mood match (+1.00); energy gap 0.06 (+0.94)
+5   Desert Festival           Sol Dorado          0.96
+    Because: energy gap 0.04 (+0.96)
